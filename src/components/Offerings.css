@@ -1,0 +1,14 @@
+Offerings.css.offerings {
+  padding: 100px 40px;
+  background: #fafafa;
+}
+
+.offerings h2 {
+  color: #7b1fa2;
+  margin-bottom: 10px;
+}
+
+.offerings h3 {
+  font-size: 40px;
+  max-width: 600px;
+}

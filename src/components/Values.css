@@ -1,0 +1,20 @@
+.values {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 100px 40px;
+  background: #fff;
+  flex-wrap: wrap;
+}
+
+.value-card {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #7b1fa2;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
