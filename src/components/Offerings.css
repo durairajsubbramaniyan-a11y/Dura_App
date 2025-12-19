@@ -1,14 +1,44 @@
-Offerings.css.offerings {
-  padding: 100px 40px;
-  background: #fafafa;
+.offerings {
+  padding: 120px 60px;
+  background: radial-gradient(circle at top, #1e1033, #0f0a19);
+  text-align: left;
 }
 
+/* Section small heading */
 .offerings h2 {
-  color: #7b1fa2;
-  margin-bottom: 10px;
+  color: #a855f7; /* purple */
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
 }
 
+/* Main heading */
 .offerings h3 {
-  font-size: 40px;
-  max-width: 600px;
+  color: #22c55e; /* green */
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 720px;
+  margin-bottom: 20px;
+}
+
+/* Description text */
+.offerings p {
+  color: #d1d5db;
+  font-size: 18px;
+  max-width: 650px;
+  line-height: 1.7;
+}
+
+/* Decorative underline */
+.offerings h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: linear-gradient(to right, #a855f7, #22c55e);
+  margin-top: 12px;
+  border-radius: 6px;
 }

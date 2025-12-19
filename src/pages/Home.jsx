@@ -14,8 +14,7 @@ function Home() {
       <section className="hero">
         <div className="overlay">
           <h1>
-            Driving Operational Excellence with Agile
-            Software Development<span>.</span>
+           Master Programming & Crack Interviews with Confidence<span>.</span>
           </h1>
 
           <p>
