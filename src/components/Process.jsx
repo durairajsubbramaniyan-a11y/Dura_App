@@ -5,10 +5,10 @@ const steps = ["Learn", "Practice", "Build Logic", "Prepare"];
 function Process() {
   return (
     <section className="process">
-      <p className="process-text">
+      <h2 className="process-text">
         Leverage strategic prioritization and real-world expertise to craft
         exceptional digital solutions.
-      </p>
+      </h2>
 
       <div className="process-steps">
         {steps.map((step) => (

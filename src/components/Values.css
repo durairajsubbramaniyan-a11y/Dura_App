@@ -1,20 +1,27 @@
 .values {
   display: flex;
   justify-content: center;
-  gap: 50px;
-  padding: 100px 40px;
-  background: #fff;
-  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 0;
 }
 
 .value-card {
   width: 120px;
   height: 120px;
+  border: 3px solid #6a1bb1;
   border-radius: 50%;
-  background: #7b1fa2;
-  color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
+}
+
+.value-card svg {
+  font-size: 48px;
+  color: #6a1bb1;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.value-card:hover svg {
+  transform: scale(1.3);
+  color: #ff9800;
 }
