@@ -1,6 +1,6 @@
 import "./Process.css";
 
-const steps = ["Plan", "Design", "Build", "Test", "Deliver"];
+const steps = ["Learn", "Practice", "Build Logic", "Prepare"];
 
 function Process() {
   return (
