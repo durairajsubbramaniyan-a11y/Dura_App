@@ -4,9 +4,9 @@ function Team() {
   return (
     <section className="team">
         <p className="team-subtitle">
-  Helping developers and testers prepare smarter for interviews
-</p>
-      <h2>Meet the Creator<span></span></h2>
+            Helping developers and testers prepare smarter for interviews
+        </p>
+       <h2>Meet the Creator<span></span></h2>
 
       <div className="team-grid">
         <div className="team-card">

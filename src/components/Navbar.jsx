@@ -7,9 +7,9 @@ function Navbar() {
 
       <nav className="menu">
         <a href="#">Home</a>
-        <a href="#">Java</a>
-        <a href="#">JavaScript </a>
-        <a href="#">Python </a>
+        <a href="#">Courses</a>
+        <a href="#">Roadmap</a>
+        <a href="#">Projects</a>
         <a href="#">Contact</a>
       </nav>
 
