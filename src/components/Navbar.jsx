@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import "./Navbar.css";
+
 
 function Navbar() {
   return (
@@ -6,14 +8,19 @@ function Navbar() {
       <div className="logo">DURA Tech Prep</div>
 
       <nav className="menu">
-        <a href="#">Home</a>
-        <a href="#">Courses</a>
-        <a href="#">Roadmap</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+  <Link to="/">Home</Link>
+  <Link to="/courses">Courses</Link>
+  <Link to="/roadmap">Roadmap</Link>
+  <Link to="/projects">Projects</Link>
+  <Link to="/contact">Contact</Link>
       </nav>
 
-      <button className="cta-btn">Get in Touch</button>
+
+      <Link to="/contact" className="cta-btn">
+         Get in Touch
+      </Link>
+   
+
     </header>
   );
 }

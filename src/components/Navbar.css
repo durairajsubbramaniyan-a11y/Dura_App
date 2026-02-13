@@ -11,8 +11,13 @@
   font-weight: bold;
   color: #6a1b9a;
 }
+.menu {
+  display: flex;
+  align-items: center;
+}
 
-.menu a {
+.menu a,
+.menu a:visited {
   margin: 0 15px;
   text-decoration: none;
   color: #000;
